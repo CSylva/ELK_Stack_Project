@@ -79,4 +79,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the ELK-project.yml file to /etc/ansible/.
 - Update the hosts file to include a webserver group with the machines IP address
-- Run the playbook, and navigate to <machinesIPAddress>:5601 to check that the installation worked as expected.
+- Run the playbook, and navigate to (machinesIPAddress):5601 to check that the installation worked as expected.

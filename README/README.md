@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 ELK_Stack_Project/README/Images/NetworkDiagram.JPG
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ELK-project.yml file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the elk_project.yml file may be used to install only certain pieces of it, such as Filebeat.
 
 This document contains the following details:
 - Description of the Topology
@@ -77,6 +77,6 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ELK-project.yml file to /etc/ansible/.
+- Copy the elk_project.yml file to /etc/ansible/.
 - Update the hosts file to include a webserver group with the machines IP address
 - Run the playbook, and navigate to (machinesIPAddress):5601 to check that the installation worked as expected.
